@@ -27,7 +27,7 @@ SERVERS_DIR.mkdir(exist_ok=True)
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Shshhshshshsshha15636363hhshshshshh")
 CF_SITE_KEY   = os.environ.get("CF_TURNSTILE_SITE_KEY", "")
 CF_SECRET_KEY = os.environ.get("CF_TURNSTILE_SECRET_KEY", "")
-ADMIN_PATH    = os.environ.get("ADMIN_PATH", "Sulav")   # secret URL segment
+ADMIN_PATH    = os.environ.get("ADMIN_PATH", "new)   # secret URL segment
 SITE_NAME     = "Sulav VPS"
 
 RUNNING_PROCESSES  = {}
