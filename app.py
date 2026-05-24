@@ -24,7 +24,7 @@ DATA_FILE = BASE_DIR / "data.json"
 SERVERS_DIR = BASE_DIR / "servers"
 SERVERS_DIR.mkdir(exist_ok=True)
 
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "123456789")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Shshhshshshsshha15636363hhshshshshh")
 CF_SITE_KEY   = os.environ.get("CF_TURNSTILE_SITE_KEY", "")
 CF_SECRET_KEY = os.environ.get("CF_TURNSTILE_SECRET_KEY", "")
 ADMIN_PATH    = os.environ.get("ADMIN_PATH", "Sulav")   # secret URL segment
